@@ -19,4 +19,4 @@ shortener = pyshorteners.Shortener()
 
 shortened = shortener.osdb.short(url)
 
-print(shortened)
+print("\n", shortened)
