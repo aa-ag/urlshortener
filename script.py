@@ -1,8 +1,5 @@
 import pyshorteners
 
-# s = pyshorteners.Shortener()
-# print(s.available_shorteners)
-
 '''
 ['adfly', 'bitly', 'chilpit', 'clckru', 'cuttly', 
 'dagd', 'gitio', 'isgd', 'nullpointer', 'osdb', 
@@ -20,3 +17,7 @@ shortener = pyshorteners.Shortener()
 shortened = shortener.osdb.short(url)
 
 print("\n", shortened)
+
+# expanded = shortener.osdb.expand('http://osdb.link/TEST')
+
+# print(expanded)
